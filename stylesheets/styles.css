@@ -1,0 +1,191 @@
+/* ============================================================
+	Perfect Fools
+	Description: Css Main File for Project A
+	Date: maio 2014
+	Version: 1.0
+	Authors: Paula Kreuger 
+============================================================ */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+/* MIXINS */
+/*	=GENERIC
+----------------------------------------------------*/
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #777e77;
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  background-color: #eeeeee;
+  padding-bottom: 4em;
+}
+
+.skipit {
+  display: none;
+}
+
+/*	=COMMENTS
+----------------------------------------------------*/
+.wrapper {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 1.625em;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.wrapper:before, .wrapper:after {
+  content: " ";
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .wrapper {
+    font-size: 1.125em;
+    width: 85%;
+  }
+}
+
+section {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+section:last-child {
+  margin-right: 0;
+}
+section .heading {
+  font-size: 3.75em;
+  margin-bottom: .5em;
+  margin-top: .5em;
+  color: #57c7ff;
+  font-weight: 300;
+  line-height: .8;
+}
+section .heading.heading__3 {
+  font-size: 2.625em;
+  margin-bottom: .1em;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  section .heading.heading__3 {
+    font-size: 1.875em;
+  }
+}
+section.section__me p {
+  max-width: 680px;
+  margin: 0 auto;
+}
+section a:link,
+section a:visited {
+  color: #ff707f;
+}
+section a:hover {
+  color: #57c7ff;
+}
+section p span {
+  background: white;
+}
+section mark {
+  background: #ff707f;
+  color: white;
+}
+section ul {
+  margin: 0;
+  padding: 0;
+}
+section li {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  font-size: 0.75em;
+}
+section.section__portfolio li {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  overflow: hidden;
+  height: 200px;
+  background: white;
+  margin: .3em;
+  border: 5px solid white;
+}
+section.section__portfolio li:last-child {
+  margin-right: 0;
+}
+section.section__portfolio img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+footer:before, footer:after {
+  content: " ";
+  display: table;
+}
+footer:after {
+  clear: both;
+}
+footer:before, footer:after {
+  content: " ";
+  display: table;
+}
+footer:after {
+  clear: both;
+}
+
+.icons li, .icons a {
+  width: 64px;
+  height: 64px;
+}
+.icons li {
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+}
+.icons a {
+  display: block;
+  background-size: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .icons li, .icons a {
+    width: 42.66667px;
+    height: 42.66667px;
+  }
+}
+
+.icon__fb a {
+  background-image: url(../images/02_facebook.png);
+}
+
+.icon__tw a {
+  background-image: url(../images/01_twitter.png);
+}
+
+.icon__li a {
+  background-image: url(../images/07_linkedin.png);
+}
+
+.icon__pi a {
+  background-image: url(../images/13_pinterest.png);
+}

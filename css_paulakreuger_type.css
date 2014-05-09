@@ -1,0 +1,61 @@
+/* Paula Kreuger Portfolio Styles FONTS
+   Updated: Tue 2010.07.15
+   Author:     Paula Kreuger
+   ----------------------------------------------------*/
+
+@font-face {
+	font-family: 'HattoriHanzoLight';
+	src: url('type/Hattori_Hanzo-webfont.eot');
+	src: local('☺'), url('type/Hattori_Hanzo-webfont.woff') format('woff'), url('type/Hattori_Hanzo-webfont.ttf') format('truetype'), url('type/Hattori_Hanzo-webfont.svg#webfontrd3huYzV') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HattoriHanzoLightItalic';
+	src: url('type/Hattori_Hanzo_Italic-webfont.eot');
+	src: local('☺'), url('type/Hattori_Hanzo_Italic-webfont.woff') format('woff'), url('type/Hattori_Hanzo_Italic-webfont.ttf') format('truetype'), url('type/Hattori_Hanzo_Italic-webfont.svg#webfontQIXyyLTZ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'JosefinSansStdLight';
+	src: url('type/JosefinSansStd-Light-webfont.eot');
+	src: local('☺'), url('type/JosefinSansStd-Light-webfont.woff') format('woff'), url('type/JosefinSansStd-Light-webfont.ttf') format('truetype'), url('type/JosefinSansStd-Light-webfont.svg#webfontmMSjIQwC') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CantarellRegular';
+	src: url('type/Cantarell-Regular-webfont.eot');
+	src: local('☺'), url('type/Cantarell-Regular-webfont.woff') format('woff'), url('type/Cantarell-Regular-webfont.ttf') format('truetype'), url('type/Cantarell-Regular-webfont.svg#webfontaI1yI6ue') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CantarellOblique';
+	src: url('type/Cantarell-Oblique-webfont.eot');
+	src: local('☺'), url('type/Cantarell-Oblique-webfont.woff') format('woff'), url('type/Cantarell-Oblique-webfont.ttf') format('truetype'), url('type/Cantarell-Oblique-webfont.svg#webfontFxXF3dEi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CantarellBold';
+	src: url('type/Cantarell-Bold-webfont.eot');
+	src: local('☺'), url('type/Cantarell-Bold-webfont.woff') format('woff'), url('type/Cantarell-Bold-webfont.ttf') format('truetype'), url('type/Cantarell-Bold-webfont.svg#webfontfFimAbpE') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CantarellBoldOblique';
+	src: url('type/Cantarell-BoldOblique-webfont.eot');
+	src: local('☺'), url('type/Cantarell-BoldOblique-webfont.woff') format('woff'), url('type/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('type/Cantarell-BoldOblique-webfont.svg#webfontzKyudDXV') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
